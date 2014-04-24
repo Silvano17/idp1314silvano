@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>PDC WinServer</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.21" />
+</head>
+<body>
+<div style='display:table-row; padding: 10px;'>
+  <div style='float: left; width=20%; padding:10px;'>
+  <img src='./imagenes/logo.png'/>
+  </div>
+  <div style='float: left;padding:10px'>
+  <ul>
+    <li><b>M&oacute;dulo:</b> <i>Sistemas Operativos</i></li>
+    <li><b>T&iacute;tulo del trabajo</b> <i>PDC WinServer</i></li>
+    <li><b>Componentes del grupo:</b> <i>Silvano Pérez Yanes</i></li>
+    <li><b>Curso Acad&eacute;mico:</b> <i>2013/2014</i></li>
+    <li><b>Fecha de entrega:</b> <i>24 de Abril de 2014</i></li>
+  </ul>
+  </div>
+</div>
+<div style='float: clear;background-color: #eeeeee; border:2px solid; border-radius:10px; padding: 10px;'>
+<a href='#bloque1'>Configuraciones</a> | <a href='#bloque2'>Usuarios de dominio</a> | <a href='#bloque3'>Equipos de dominio</a> | <a href='#bloque4'>Perfiles Moviles</a> | <a href='#bloque5'>Control del tiempo</a>
+</div>
+<h1><a id='bloque1'>Configuraciones</a></h1>
+<p>Para la configuración del Windows 2008 server le agregamos un nombre de dominio y activar las 
+funciones del controlador de dominio.</p>
+<img src='./imagenes/imagen1.png'/ width=50%>
+<br></br><br/>
+<img src='./imagenes/imagen3.png'/width=50%>
+<h1><a id='bloque2'>Usuarios de dominio</a></h1>
+<p>Ahora, creamos los usuarios de dominio con el active directory, y creamos los usuarios "obiwan, yoda, quigon, maul, vader, emperador" y los grupos de los usuarios de dominio "jedi, sith".
+</p>
+<img src='./imagenes/imagen4.png' width=45%/><br></br><br/>
+<img src='./imagenes/imagen5.png' width=45%/><br></br><br/>
+<img src='./imagenes/imagen6.png' width=45%/>
+
+<h1><a id='bloque3'>Equipos de dominio</a></h1>
+<p>A continuación, instalamos una maquina virtual windows 7 enterprise y luego clonamos esa maquina virtual con una direción
+MAC diferentes, las maquinas virtuales tendrán de nombres "PEREZ2A y PEREZ2B", con los que los usuarios de dominio
+podrán acceder, teniendo las MVs conectadas al dominio del servidor.</p>
+<img src='./imagenes/imagen7.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen8.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen9.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen10.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen12.png'/ width=50%>
+
+<h1><a id='bloque4'>Perfiles Moviles</a></h1>
+<p>Ahora, agregamos un disco virtual nuevo a las maquinas virtuales windows 7 donde estarán las carpetas de los ususarios de dominio.
+entramos con todos los usuarios de dominio en las maquinas virtuales de windows 7, comprobaremos que se han creado 
+las carpetas de los usuarios al entrar, ya que se le han asignado una carpeta compartida. Una vez finalizado todo esto
+nos vamos a las propiedades de sistema y borramos los perfiles moviles almacenados.</p>
+<img src='./imagenes/imagen13.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen14.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen15.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen16.png'/ width=50%>
+<h1><a id='bloque5'>Control del tiempo</a></h1>
+<p>Para finalizar, le asignamos a los usuarios un horario con los que porder entrar a las maquinas virtuales.</p>
+<img src='./imagenes/imagen17.png'/ width=50%><br></br><br/>
+<img src='./imagenes/imagen18.png'/ width=50%>
+</body>
+</html>
