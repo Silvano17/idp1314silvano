@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>Registro de eventos</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.21" />
+</head>
+<body>
+<div style='display:table-row; padding: 10px;'>
+  <div style='float: left; width=20%; padding:10px;'>
+  <img src='./files/logo.png'/>
+  </div>
+  <div style='float: left;padding:10px'>
+  <ul>
+    <li><b>M&oacute;dulo:</b> <i>Sistemas Operativos</i></li>
+    <li><b>T&iacute;tulo del trabajo</b> <i>registro de eventos</i></li>
+    <li><b>Componentes del grupo:</b> <i>Silvano Pérez Yanes</i></li>
+    <li><b>Curso Acad&eacute;mico:</b> <i>2013/2014</i></li>
+    <li><b>Fecha de entrega:</b> <i>16 de Junio de 2014</i></li>
+  </ul>
+  </div>
+</div>
+<div style='float: clear;background-color: #eeeeee; border:2px solid; border-radius:10px; padding: 10px;'>
+<a href='#bloque1'>Registro Windows</a> | <a href='#bloque2'>Registros en Linux</a> | <a href='#bloque3'>Registros Linux (Comandos)</a> <a href='#bloque4'>Resgistros Linux (Logrotate)</a> |
+</div>
+<h1><a id='bloque1'>Registro Windows</a></h1>
+<p>En este apartado vamos ha activar las directivas de seguridad, para auditar 
+los inicios en el sistema; además creamos dos usuarios con sus claves conrrespondientes, para que luego podamos comprobar que 
+las directivas de seguridad funcionan si entramos de forma incorrecta con las contraseñas; una vez comprovado 
+dichos procesos, nos vamos al fichero de eventos de windows y comprovamos que los eventos con los inicios de seción 
+se han llevado a cabo.</p>
+<img src='./files/1.png'/><br/><br/>
+<img src='./files/2.png'/>
+<h1><a id='bloque2'>Resgitros en Linux</a></h1>
+<p>En este caso, vamos a ver los registros de eventos con un programa de navegador para ver los ficheros log; para ello
+instalamos el programa webmin que nos permitira ver dichos ficheros mediante localhosts</p>
+<img src='./files/3.png'/><br/><br/>
+<img src='./files/4.png'/><br/><br/>
+<img src='./files/5.png'/>
+<h1><a id='bloque3'>Registros Linux (Comandos)</a></h1>
+<p>Ahora vamos, a ver los registros de Linux con comandos, con los ficheros rsyslog, para ellos nos vamos 
+al fichero de configuración rsyslog.conf, y escribir una linea; reiniciar los servicios rsyslog.
+Luego creamos unos registros para comprovar que los registros ocupan espacio.</p>
+<img src='./files/6.png'/><br/><br/>
+<img src='./files/7.png'/><br/><br/>
+<img src='./files/8.png'/>
+<h1><a id='bloque3'>Registros Linux (Logrotate)</a></h1>
+<p>Ahora vamos a configurar el fichero logrotate para generar rotaciones en el fichero log; creamos un nuevo fichero en logrotate 
+para luego escribir unas lineas en ella; al terminar usamos un script de mensages para el log; y para finalizar escribimos unos comandos
+para aumentar el tamaño del fichero log.</p>
+<img src='./files/9.png'/><br/><br/>
+<img src='./files/10.png'/><br/><br/>
+<img src='./files/11.png'/><br/><br/>
+<img src='./files/12.png'/>
+</body>
+</html>
